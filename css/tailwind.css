@@ -50,16 +50,7 @@ main{
     bg-pink-700
     text-pink-50
 
-    rounded-md
-}
-
-.emai_box_inputs{
-    @apply
-
-    /*Paddings*/
-    px-8
-    py-4
-
+    rounded-t-md
 }
 
 
@@ -74,23 +65,31 @@ main{
     mt-2
 }
 
+
+.emai_box_inputs{
+    @apply
+
+    /*Paddings*/
+    px-8
+    py-4
+
+}
+
 .inputs{
     @apply
     rounded-md
     block
     w-full
 
-    text-pink-900
+    text-pink-700
 
     pl-2
     py-2
     focus:outline-none
     focus:ring-2 focus:ring-pink-200
 
-    placeholder-pink-500
+    placeholder-pink-200
 }
-
-
 
 
 .email_box_loaders{
@@ -103,16 +102,23 @@ main{
     @apply
     w-20
     h-auto
+
+    transform
+    duration-1000
 }
 
 .email_box_buttons{
     @apply
     flex
-    justify-between
-    
+    flex-col
+    gap-4    
     /*Paddings*/
     px-8
     py-4
+
+    /*Medium*/
+    md:flex-row
+    md:justify-between
 }
 
 .email_box_button{
@@ -137,6 +143,8 @@ main{
     uppercase
 
     rounded-md
+
+    select-none
 
 }
 

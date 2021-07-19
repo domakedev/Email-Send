@@ -9,7 +9,8 @@ module.exports = {
   variants: {
     extend: {
       translate: ['active'],
-      backgroundColor: ['active']
+      backgroundColor: ['active'],
+      opacity: ['disabled'],
     },
   },
   plugins: [],

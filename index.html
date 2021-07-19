@@ -20,29 +20,29 @@
 
           <div class="emai_box_inputs">
                 <label class="labels" for="">Tu Nombre</label>
-                <input class="inputs" placeholder="Arturo..." type="text">
+                <input id="name" class="inputs" placeholder="Arturo..." type="text">
 
                 <label class="labels" for="">Tu email</label>
-                <input class="inputs" type="email" placeholder="arturo@gmail.com">
+                <input id="email" class="inputs" type="email" placeholder="arturo@gmail.com">
 
                 <label class="labels" for="">Tu Mensaje</label>
-                <textarea class="inputs" name="" id="" rows="5"></textarea>
+                <textarea id="textarea" class="inputs" name="" rows="5"></textarea>
                 
           </div>
 
 
           <div class="email_box_loaders">
-            <img class="email_box_loader" src="img/Spinner-1.4s-200px (1).svg" alt="">
+            <img class="email_box_loader" alt="">
             <!-- <i class="fas fa-check" style="color:white"></i> -->
           </div>
 
 
           <div class="email_box_buttons">
-            <button class="email_box_button email_box_button-enviar">
+            <button disabled class="email_box_button email_box_button-enviar disabled:opacity-50">
                 Enviar
                 <i class="fas fa-sign-in-alt"></i>
             </button>
-            <button class="email_box_button email_box_button-limpiar">
+            <button class="email_box_button email_box_button-limpiar ">
                 Limpiar
                 <i class="fas fa-trash"></i>
             </button>
@@ -56,5 +56,7 @@
       src="https://kit.fontawesome.com/d0d8060eb6.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="scritps.js"></script>
   </body>
 </html>
