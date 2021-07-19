@@ -161,6 +161,9 @@ function cleanAll() {
         textareaBox.classList.remove('border-b-8')
 
         loader.src =''
+
+        sendBtn.disabled = true;
+ 
 }
 
 function enviarDatos(e){
